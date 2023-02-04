@@ -12,7 +12,8 @@ export default {
     return { text: "" };
   },
   methods: {
-    onSubmit() {
+    onSubmit(e) {
+      e.preventDefault();
       this.$emit("search-text", this.text);
       this.text = "";
     },

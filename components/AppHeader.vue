@@ -9,6 +9,9 @@
         <nuxt-link to="/jokes">Jokes</nuxt-link>
       </li>
       <li>
+        <nuxt-link to="/todolist">Todo list</nuxt-link>
+      </li>
+      <li>
         <nuxt-link to="/about">About</nuxt-link>
       </li>
     </ul>
